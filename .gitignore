@@ -1,0 +1,71 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+!**/.env.example
+*.pem
+*.key
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging and build output
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+wheels/
+pip-wheel-metadata/
+
+# Test and coverage output
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+junit.xml
+
+# Local model caches and checkpoints
+biu_toolkit/model_cache/
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.nemo
+
+# Third-party source installed separately
+biu_toolkit/asr/api/tencent/tencentcloud-speech-sdk-python/
+
+# Runtime output
+*.log
+*.tmp
+*.temp
+*.pid
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Local agent planning files
+task_plan.md
+findings.md
+progress.md
