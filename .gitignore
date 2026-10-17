@@ -39,7 +39,7 @@ coverage.xml
 junit.xml
 
 # Local model caches and checkpoints
-biu_toolkit/model_cache/
+audio_toolkit/model_cache/
 *.safetensors
 *.ckpt
 *.pth
@@ -48,7 +48,7 @@ biu_toolkit/model_cache/
 *.nemo
 
 # Third-party source installed separately
-biu_toolkit/asr/api/tencent/tencentcloud-speech-sdk-python/
+audio_toolkit/asr/api/tencent/service/tencentcloud-speech-sdk-python/
 
 # Runtime output
 *.log
@@ -69,3 +69,7 @@ Thumbs.db
 task_plan.md
 findings.md
 progress.md
+/.agents/
+/.aws/
+/.codex/
+/.omx/
